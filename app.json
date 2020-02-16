@@ -1,0 +1,48 @@
+{
+  "id": "zone.lauener.homey.expression",
+  "version": "0.1.0",
+  "compatibility": ">=1.5.0",
+  "sdk": 2,
+  "name": {
+    "en": "zone.lauener.homey.expression"
+  },
+  "description": {
+    "en": "Execute javascript expressions."
+  },
+  "category": [
+    "tools"
+  ],
+  "permissions": [
+    "homey:manager:api",
+    "homey:manager:ledring"
+  ],
+  "images": {
+    "large": "/assets/images/large.png",
+    "small": "/assets/images/small.png"
+  },
+  "author": {
+    "name": "Pascal Lauener",
+    "email": "pascal@lauener.biz"
+  },
+  "flow": {
+    "triggers": [
+    ],
+    "actions": [
+      {
+        "id": "execute_expression",
+        "title": {
+          "en": "Execute expression."
+        },
+        "args": [
+          {
+            "name": "expression",
+            "type": "text",
+            "placeholder": {
+              "en": "Expression"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
