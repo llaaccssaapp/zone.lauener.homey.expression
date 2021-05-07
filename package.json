@@ -7,6 +7,6 @@
   },
   "dependencies": {
     "athom-api": "^3.1.20",
-    "underscore": "^1.9.2"
+    "underscore": "^1.12.1"
   }
 }
